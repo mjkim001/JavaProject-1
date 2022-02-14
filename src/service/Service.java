@@ -69,7 +69,7 @@ public class Service {
 		
 		try {
 			doc = Jsoup.connect(url).get();
-			
+			//rtydeturtfux
 			Elements curPrice = doc.select("#chart_area > div.rate_info > div > p.no_today > em > span");
 			Elements stockName = doc.select("#middle > div.h_company > div.wrap_company > h2 > a");
 			Elements befPrice = doc.select("#chart_area > div.rate_info > table > tbody > tr:nth-child(1) > td.first > em > span");
